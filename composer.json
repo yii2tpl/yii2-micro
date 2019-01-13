@@ -8,10 +8,10 @@
 	"type": "project",
 	"minimum-stability": "stable",
 	"require": {
-		"yii2bundle/yii2-app": "dev-master",
-		"yii2bundle/yii2-domain": "dev-master",
-		"yii2bundle/yii2-vendor": "dev-master",
-		"yii2bundle/yii2-extension": "dev-master"
+		"yii2rails/yii2-app": "dev-master",
+		"yii2rails/yii2-domain": "dev-master",
+		"yii2rails/yii2-extension": "dev-master",
+		"yii2bundle/yii2-vendor": "dev-master"
 	},
 	"config": {
 		"secure-http": false,
@@ -36,19 +36,19 @@
 		},
 		{
 			"type": "git",
-			"url": "git@github.com:yii2bundle/yii2-app.git"
+			"url": "git@github.com:yii2rails/yii2-app.git"
 		},
 		{
 			"type": "git",
-			"url": "git@github.com:yii2bundle/yii2-domain.git"
+			"url": "git@github.com:yii2rails/yii2-domain.git"
+		},
+		{
+			"type": "git",
+			"url": "git@github.com:yii2rails/yii2-extension.git"
 		},
 		{
 			"type": "git",
 			"url": "git@github.com:yii2bundle/yii2-vendor.git"
-		},
-		{
-			"type": "git",
-			"url": "git@github.com:yii2bundle/yii2-extension.git"
 		}
 	]
 }
