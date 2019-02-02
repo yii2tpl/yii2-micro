@@ -1,9 +1,3 @@
-/cmd
-!/environments/cmd
-!/cmd
-/api/tests/functional.suite.yml
-/api/v4/tests/functional.suite.yml
-/api/v5/tests/functional.suite.yml
 
 # netbeans project files
 nbproject
